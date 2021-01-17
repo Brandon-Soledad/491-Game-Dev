@@ -7,7 +7,7 @@ class MegaMan {
         this.animations = [];
         
                                                           // x, y, width, height, frameCount, frameDuration, spacing, reverse, loop
-        this.animations.push(new Animator(this.spritesheet, 0, 87, 75, 67, 4, 0.06, 50, false, true));
+        this.animations.push(new Animator(this.spritesheet, 0, 87, 75, 65, 4, 0.06, 50, false, true));
     };
 
     update() {
